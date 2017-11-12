@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+<head>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -12,91 +12,84 @@
 
 	<title>Rate My Noodle</title>
 
-<link rel="icon" 
-      type="image/png" 
-      href="img/ramen.png">
+	<link rel="icon" type="image/png" href="img/ramen.png">
 
-  </head>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</head>
 
 
- <body>
-  <nav class="navbar navbar-expand-lg navbar-gold bg-light">
-   <a class="navbar-brand" href="#">
-    <img src="img/ramen.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    Rate My Noodle!
-  </a>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-gold bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="img/ramen.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			Rate My Noodle!
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <i class="fa fa-instagram" aria-hidden="true"></i>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Top Ten Tastes</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Countries
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Worst of the Week</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Online Shop</a>
+				</li>
+				<form>
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-envelope"></i></span>
+						<input class="span2" type="text" placeholder="Email address">
+					</div>
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-key"></i></span>
+						<input class="span2" type="password" placeholder="Password">
+					</div>
+				</form>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<div class="jumbotron">
+		<h1 class="display-2">The Site You Never Knew You Needed..</h1>
+		<p class="lead">Rate My Noodle has been created for the people, by the people, just because you're buying budget does NOT mean you need to compromise on taste, join us for a peer-reviewed journey into the wonderful world of noodles</p>
+		<hr class="my-4">
+		<p>New to Noodle? Want to know the best tips to prepare them? Just click below</p>
+		<p class="lead">
+			<a class="btn btn-primary btn-lg" href="#" role="button">Perfect Preparation</a>
+		</p>
+	</div>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Top Ten Tastes</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Countries
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Worst of the Week</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Online Shop</a>
-      </li>
-      <form>
- 	 <div class="input-prepend">
-   			 <span class="add-on"><i class="icon-envelope"></i></span>
-  			  <input class="span2" type="text" placeholder="Email address">
- 	 </div>
-  		<div class="input-prepend">
-   			 <span class="add-on"><i class="icon-key"></i></span>
-   		 <input class="span2" type="password" placeholder="Password">
-  		</div>
-     </form>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-   </div>
-
-  </nav>
-
-  <div class="jumbotron">
-   <h1 class="display-2">The Site You Never Knew You Needed..</h1>
-  	<p class="lead">Rate My Noodle has been created for the people, by the people, just because you're buying budget does NOT mean you need to compromise on taste, join us for a peer-reviewed journey into the wonderful world of noodles</p>
-  	<hr class="my-4">
-  	<p>New to Noodle? Want to know the best tips to prepare them? Just click below</p>
-  	<p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Perfect Preparation</a>
-  </p>
- </div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-<div class="media">
-  <img class="mr-3" src="img/demae.jpg" alt="Generic placeholder image">
-  <div class="media-body">
-    <h2 class="mt-0">Nissin: Chicken Demae Ramen Noodles</h2>
-    Sensational, Sumptuous, Steamy, Scintillating, Sophisticated and Stylish are just a few of the descriptors I'd use when describing these noodles, somehow they provide taste unlike most other competitors in the market and still maintain a low price. The arrival of these noodles into the UK market brought a genuine tear in my eye and consequently it would be a sin if I didn't give these noodles a five star rating. Outstanding. 
-  </div>
-</div>
-
-   </body>
+	<div class="media">
+	  <img class="mr-3" src="img/demae.jpg" alt="Generic placeholder image">
+	  <div class="media-body">
+	    <h2 class="mt-0">Nissin: Chicken Demae Ramen Noodles</h2>
+	    Sensational, Sumptuous, Steamy, Scintillating, Sophisticated and Stylish are just a few of the descriptors I'd use when describing these noodles, somehow they provide taste unlike most other competitors in the market and still maintain a low price. The arrival of these noodles into the UK market brought a genuine tear in my eye and consequently it would be a sin if I didn't give these noodles a five star rating. Outstanding. 
+	  </div>
+	</div>
+</body>
 </html>
